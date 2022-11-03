@@ -1,0 +1,77 @@
+{
+  "formatVersion" : "1.1",
+  "createdBy" : {
+    "gradle" : {
+      "version" : "7.4.2"
+    }
+  },
+  "component" : {
+    "group" : "com.github.yuriy-budiyev",
+    "module" : "code-scanner",
+    "version" : "2.3.2",
+    "attributes" : {
+      "org.gradle.status" : "release"
+    }
+  },
+  "variants" : [ {
+    "name" : "releaseVariantReleaseApiPublication",
+    "attributes" : {
+      "org.gradle.category" : "library",
+      "org.gradle.dependency.bundling" : "external",
+      "org.gradle.libraryelements" : "aar",
+      "org.gradle.usage" : "java-api"
+    },
+    "dependencies" : [ {
+      "group" : "com.google.zxing",
+      "module" : "core",
+      "version" : {
+        "requires" : "3.3.3"
+      }
+    }, {
+      "group" : "androidx.annotation",
+      "module" : "annotation",
+      "version" : {
+        "requires" : "1.3.0"
+      }
+    } ],
+    "files" : [ {
+      "name" : "code-scanner-2.3.2.aar",
+      "url" : "code-scanner-2.3.2.aar",
+      "size" : 83939,
+      "sha512" : "82a25f79572b8a5f77f1100fe40c77316dd4482ca54ce2e322ce6b9e7fc97118d0632f02851b954e6ad401e79f913fea61146827b03819c7a3d3d74f0b8864de",
+      "sha256" : "4fbbd5ecf8825965d12d75596b186dea96030b96ef3da5a2827f9a1bb9d66da7",
+      "sha1" : "c3d4f3fe7929ecaa133bf5b99bd3e51db21456dd",
+      "md5" : "aa0ceaf19ab0c741ab0cd91546df888b"
+    } ]
+  }, {
+    "name" : "releaseVariantReleaseRuntimePublication",
+    "attributes" : {
+      "org.gradle.category" : "library",
+      "org.gradle.dependency.bundling" : "external",
+      "org.gradle.libraryelements" : "aar",
+      "org.gradle.usage" : "java-runtime"
+    },
+    "dependencies" : [ {
+      "group" : "com.google.zxing",
+      "module" : "core",
+      "version" : {
+        "requires" : "3.3.3"
+      }
+    }, {
+      "group" : "androidx.annotation",
+      "module" : "annotation",
+      "version" : {
+        "requires" : "1.3.0"
+      }
+    } ],
+    "files" : [ {
+      "name" : "code-scanner-2.3.2.aar",
+      "url" : "code-scanner-2.3.2.aar",
+      "size" : 83939,
+      "sha512" : "82a25f79572b8a5f77f1100fe40c77316dd4482ca54ce2e322ce6b9e7fc97118d0632f02851b954e6ad401e79f913fea61146827b03819c7a3d3d74f0b8864de",
+      "sha256" : "4fbbd5ecf8825965d12d75596b186dea96030b96ef3da5a2827f9a1bb9d66da7",
+      "sha1" : "c3d4f3fe7929ecaa133bf5b99bd3e51db21456dd",
+      "md5" : "aa0ceaf19ab0c741ab0cd91546df888b"
+    } ]
+  } ]
+}
