@@ -1,0 +1,153 @@
+{
+  "formatVersion" : "1.1",
+  "createdBy" : {
+    "gradle" : {
+      "version" : "7.6"
+    }
+  },
+  "component" : {
+    "group" : "com.github.Flagsmith",
+    "module" : "flagsmith-kotlin-android-client",
+    "version" : "1.4.0",
+    "attributes" : {
+      "org.gradle.status" : "release"
+    }
+  },
+  "variants" : [ {
+    "name" : "releaseVariantReleaseApiPublication",
+    "attributes" : {
+      "org.gradle.category" : "library",
+      "org.gradle.dependency.bundling" : "external",
+      "org.gradle.libraryelements" : "aar",
+      "org.gradle.usage" : "java-api"
+    },
+    "dependencies" : [ {
+      "group" : "org.jetbrains.kotlin",
+      "module" : "kotlin-stdlib-jdk8",
+      "version" : {
+        "requires" : "1.8.0"
+      }
+    } ],
+    "files" : [ {
+      "name" : "flagsmith-kotlin-android-client-1.4.0.aar",
+      "url" : "flagsmith-kotlin-android-client-1.4.0.aar",
+      "size" : 52844,
+      "sha512" : "fe94ea2f706a6eb876edf84799ffb6123426834afd80b3a25ef3a9b5c4acf44fef1373d82a356b6a276c09d3034808ebcd1ecea778e2240024ce5ad99843a527",
+      "sha256" : "306dca5a003f2d1bb8a39fc032fd3e888ab14b2cbf5556b717cbfdc497dba0a9",
+      "sha1" : "c44e42b46428ce0d60d07f58a7d8e08f6fb08994",
+      "md5" : "2861369bc2f42a4d90ca8172603eed0b"
+    } ]
+  }, {
+    "name" : "releaseVariantReleaseRuntimePublication",
+    "attributes" : {
+      "org.gradle.category" : "library",
+      "org.gradle.dependency.bundling" : "external",
+      "org.gradle.libraryelements" : "aar",
+      "org.gradle.usage" : "java-runtime"
+    },
+    "dependencies" : [ {
+      "group" : "com.google.code.gson",
+      "module" : "gson",
+      "version" : {
+        "requires" : "2.10"
+      }
+    }, {
+      "group" : "org.jetbrains.kotlinx",
+      "module" : "kotlinx-coroutines-core",
+      "version" : {
+        "requires" : "1.6.4"
+      }
+    }, {
+      "group" : "com.squareup.retrofit2",
+      "module" : "retrofit",
+      "version" : {
+        "requires" : "2.9.0"
+      }
+    }, {
+      "group" : "com.squareup.retrofit2",
+      "module" : "converter-gson",
+      "version" : {
+        "requires" : "2.9.0"
+      }
+    }, {
+      "group" : "com.squareup.okhttp3",
+      "module" : "okhttp-sse",
+      "version" : {
+        "requires" : "4.11.0"
+      }
+    }, {
+      "group" : "org.jetbrains.kotlin",
+      "module" : "kotlin-stdlib-jdk8",
+      "version" : {
+        "requires" : "1.8.0"
+      }
+    } ],
+    "files" : [ {
+      "name" : "flagsmith-kotlin-android-client-1.4.0.aar",
+      "url" : "flagsmith-kotlin-android-client-1.4.0.aar",
+      "size" : 52844,
+      "sha512" : "fe94ea2f706a6eb876edf84799ffb6123426834afd80b3a25ef3a9b5c4acf44fef1373d82a356b6a276c09d3034808ebcd1ecea778e2240024ce5ad99843a527",
+      "sha256" : "306dca5a003f2d1bb8a39fc032fd3e888ab14b2cbf5556b717cbfdc497dba0a9",
+      "sha1" : "c44e42b46428ce0d60d07f58a7d8e08f6fb08994",
+      "md5" : "2861369bc2f42a4d90ca8172603eed0b"
+    } ]
+  }, {
+    "name" : "releaseTestFixturesVariantReleaseApiPublication",
+    "attributes" : {
+      "org.gradle.category" : "library",
+      "org.gradle.dependency.bundling" : "external",
+      "org.gradle.libraryelements" : "aar",
+      "org.gradle.usage" : "java-api"
+    },
+    "dependencies" : [ {
+      "group" : "com.github.Flagsmith.flagsmith-kotlin-android-client",
+      "module" : "flagsmith-kotlin-android-client",
+      "version" : {
+        "requires" : "1.4.0"
+      }
+    } ],
+    "capabilities" : [ {
+      "group" : "com.github.Flagsmith",
+      "name" : "FlagsmithClient-test-fixtures",
+      "version" : "1.4.0"
+    } ],
+    "files" : [ {
+      "name" : "flagsmith-kotlin-android-client-1.4.0.aar",
+      "url" : "flagsmith-kotlin-android-client-1.4.0.aar",
+      "size" : 781,
+      "sha512" : "eb99fd8d87b59915a3e77f3dfce0cc28a2606783005b32a0384a25c16dc1bfb9619b4c997c4169c0697f42cac7037d36bc782135f246a6799182ca8e4615d3ca",
+      "sha256" : "e6f765012366b4fefa5d87747cf1b6e7bba05bd8ebdd6adb2acdb5b70f0b0adf",
+      "sha1" : "afa951bd2ca871135a29edfe75a3f6d9c5e7303b",
+      "md5" : "5538511a0d57148e717dfd491cc28e33"
+    } ]
+  }, {
+    "name" : "releaseTestFixturesVariantReleaseRuntimePublication",
+    "attributes" : {
+      "org.gradle.category" : "library",
+      "org.gradle.dependency.bundling" : "external",
+      "org.gradle.libraryelements" : "aar",
+      "org.gradle.usage" : "java-runtime"
+    },
+    "dependencies" : [ {
+      "group" : "com.github.Flagsmith.flagsmith-kotlin-android-client",
+      "module" : "flagsmith-kotlin-android-client",
+      "version" : {
+        "requires" : "1.4.0"
+      }
+    } ],
+    "capabilities" : [ {
+      "group" : "com.github.Flagsmith",
+      "name" : "FlagsmithClient-test-fixtures",
+      "version" : "1.4.0"
+    } ],
+    "files" : [ {
+      "name" : "flagsmith-kotlin-android-client-1.4.0.aar",
+      "url" : "flagsmith-kotlin-android-client-1.4.0.aar",
+      "size" : 781,
+      "sha512" : "eb99fd8d87b59915a3e77f3dfce0cc28a2606783005b32a0384a25c16dc1bfb9619b4c997c4169c0697f42cac7037d36bc782135f246a6799182ca8e4615d3ca",
+      "sha256" : "e6f765012366b4fefa5d87747cf1b6e7bba05bd8ebdd6adb2acdb5b70f0b0adf",
+      "sha1" : "afa951bd2ca871135a29edfe75a3f6d9c5e7303b",
+      "md5" : "5538511a0d57148e717dfd491cc28e33"
+    } ]
+  } ]
+}
